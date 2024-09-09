@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             document.getElementById("sex").innerHTML = data.Female;
           }
+        document.getElementById("ServerName").textContent = data.ServerName;
       })
       .catch(error => console.error("Fetch error:", error));
   }

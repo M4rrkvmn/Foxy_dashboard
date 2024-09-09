@@ -208,9 +208,9 @@ h1 {
   position: absolute;
   width: 15%;
   height: 7%;
-  top: -5%;
+  top: 2%;
   left: 2.5%;
-  font-size: 400%;
+  font-size: 350%;
   color: white;
 }
 
@@ -218,9 +218,9 @@ h1 {
   position: absolute;
   width: 75%;
   height: 7%;
-  top: 5.50%;
-  left: 37.5%;
-  font-size: 325%;
+  top: 15%;
+  left: 32.5%;
+  font-size: 280%;
   color: white;
 }
 
@@ -258,9 +258,9 @@ h1 {
   position: absolute;
   width: 75%;
   height: 7%;
-  top: 12.5%;
-  left: 24%;
-  font-size: 275%;
+  top: 17.5%;
+  left: 39.5%;
+  font-size: 250%;
   color: white;
 }
 
@@ -288,9 +288,9 @@ h1 {
   position: absolute;
   width: 75%;
   height: 7%;
-  top: 9.5%;
+  top: 12.5%;
   left: 1%;
-  font-size: 300%;
+  font-size: 275%;
   color: white;
 }
 
@@ -298,9 +298,9 @@ h1 {
   position: absolute;
   width: 75%;
   height: 7%;
-  top: 9.5%;
-  left: 39%;
-  font-size: 300%;
+  top: 14%;
+  left: 37.5%;
+  font-size: 270%;
   color: white;
 }
 
@@ -319,7 +319,7 @@ h1 {
   width: 75%;
   height: 7%;
   top: 21.5%;
-  left: 53%;
+  left: 54.5%;
   font-size: 225%;
   color: white;
 }
@@ -439,7 +439,18 @@ h1 {
   width: 75%;
   height: 7%;
   top: 12%;
-  left: 43.5%;
+  left: 46.5%;
+  font-size: 300%;
+  color: white;
+}
+
+#ServerName {
+  position: absolute;
+  width: 75%;
+  height: 7%;
+  top: 67.5%;
+  left: 11.5%;
+  text-align: center;
   font-size: 300%;
   color: white;
 }

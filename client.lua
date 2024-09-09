@@ -43,11 +43,12 @@ RegisterNUICallback("getPlayerData", function(data, cb)
             id = playerData.id,
             date = playerData.date,
             sex = playerData.sex,
-            Male = "Férfi",
-            Female = "Nő",
+            Male = Config.Male,
+            Female = Config.Female,
             Heal = GetEntityHealth(ped) / 2,
             Armor = GetPedArmour(ped),
             steam = playerData.steam,
+            ServerName = Config.ServerName,
         })
     end)
 end)
